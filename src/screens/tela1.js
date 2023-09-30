@@ -154,7 +154,8 @@ const styles = StyleSheet.create({
     container:{
         backgroundColor:'#f1f1f1',
         width:'100%',
-        height:'100%'
+        height:'100%',
+        elevation:100
     },
     header:{
         flexDirection: 'row',
@@ -169,7 +170,6 @@ const styles = StyleSheet.create({
         backgroundColor:'white',
         padding:30,
         borderRadius:23,
-        elevation:10,
         height:'25%',
         width:'94%',
         marginLeft:'3%'
@@ -214,7 +214,6 @@ const styles = StyleSheet.create({
     vistorecente0:{
         backgroundColor:'white',
         padding:12,
-        elevation:20,
         flexDirection: 'row',
         justifyContent: 'space-between',
         marginBottom:12,
